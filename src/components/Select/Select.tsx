@@ -8,7 +8,7 @@ type SelectStyles = 'small' | 'medium'
 interface SelectProps {
     value?: string
     placeholder?: string
-    size: SelectStyles
+    size: SelectStyles | any
     className?: string
     onChange?: (value: string) => void
 }
