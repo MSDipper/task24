@@ -1,0 +1,51 @@
+:root {
+    //! Color */
+    --primary: rgba(37, 38, 53, 1);
+    --bg-main:#1D1E2C;
+    --button: rgba(94, 136, 216, 1);
+    --negative:rgba(250, 60, 60, 1);
+    --positive: rgba(3, 153, 99, 1);
+    --cards: rgba(238, 148, 65, 1);
+    --white: rgba(255, 255, 255, 1);
+    --text-accent: rgba(161, 161, 161, 1);
+    --border: #a1a1a13b;
+    --smoke: #35364C;
+    --bg-accent: rgba(53, 54, 77, 1);
+    --span: rgba(37, 133, 236, 1);
+
+    //! Font size
+    --xss: 10px;
+    --xs: 12px;
+    --sm: 14px;
+    --base: 16px;
+    --lg: 18px;
+    --xl: 20px;
+    --xl2: 24px;
+
+    //! Margin */
+    --margin: 8px;
+
+     //! Padding  */
+    --padding: 8px;
+
+     //! Size  */
+    --full: 100%;
+
+    //! Family */
+    --family: "Lato", sans-serif;
+
+    //! Radius  */
+    --radius-small: 4px;
+    --radius: 6px;
+    --radius-medium: 10px;
+    --radius-big: 30px;
+    --radius-xl: 100px;
+    --radius-round: 50%;
+
+    //! Font weight  */
+    --text-regular: 400;
+    --text-medium: 500;
+    --text-semiBold: 600;
+    --text-bold: 700;
+
+}

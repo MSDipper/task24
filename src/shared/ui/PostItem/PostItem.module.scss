@@ -1,0 +1,120 @@
+.component {
+    max-width: 312px;
+    width: 100%;
+    min-height: 395px;
+    height: 100%;
+    color: var(--white);
+}
+
+.component-top {
+    display: flex;
+    align-items: center;
+    gap: var(--margin);
+    padding: var(--padding) calc(var(--padding) * 2) calc(var(--padding) * 2);
+    background-color: var(--bg-accent);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    padding: calc(var(--padding) * 2);
+    color: var(--text-accent);
+    font-size: var(--xs);
+    display: flex;
+    flex-direction: column;
+    gap: var(--margin);
+    background-color: var(--primary);
+    border-radius: 0 0 10px 10px;
+}
+
+.component-image {
+    margin-top: calc(var(--margin) / -2);
+
+}
+
+.content-id {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-id__copy {
+    display: flex;
+    gap: var(--margin);
+}
+
+.content-id__copy span{
+    color:  var(--white);
+}
+.content-files {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-files__type {
+    display: flex;
+    gap: var(--margin);
+
+}
+
+.content-tag__list {
+    display: flex;
+    align-items: center;
+}
+
+.content-tag__button {
+    margin-left: var(--margin);
+}
+
+.content-files__count {
+    display: flex;
+    gap: var(--margin);
+}
+
+.content-files__count span {
+    color:  var(--white);
+
+}
+
+.content-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-date span {
+    color:  var(--white);
+}
+
+.content-tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-type__format {
+    display: flex;
+    gap: var(--margin);
+}
+
+.content-ai {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-ai__list {
+    display: flex;
+    align-items: center;
+}
+
+.content-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-count__view {
+    display: flex;
+    gap: var(--margin);
+    align-items: center;
+}
+
+.content-count__view span {
+    color: var(--span);
+}

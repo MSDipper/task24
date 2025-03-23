@@ -1,0 +1,26 @@
+.title {
+    cursor: default;
+    margin: 0;
+    font-size: var(--xl);
+    font-weight: var(--fw-semibold);
+
+    &.center {
+        text-align: center;
+    }
+}
+
+h2.title {
+    font-size: var(--lg);
+}
+
+h3.title {
+    font-size: var(--sm);
+}
+
+h4.title {
+    font-size: var(--base);
+}
+
+.heading {
+    font-family: var(--sm);
+}

@@ -1,0 +1,26 @@
+.component {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-primary {
+    background-color: rgba(101, 109, 129, 0.3);
+  }
+  &-accent {
+    background-color: var(--button);
+  }
+
+  &-small {
+    width: 15px;
+    height: 16px;
+    border-radius: var(--radius-small);
+  }
+  &-big {
+    width: 96px;
+    height: 32px;
+    border-radius: var(--radius-small);
+  }
+
+}

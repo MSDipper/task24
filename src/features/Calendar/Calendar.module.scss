@@ -1,0 +1,22 @@
+.component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--sm);
+    gap: calc(var(--margin) * 2);
+    outline: 1px solid var(--smoke);
+    background-color: var(--primary);
+    border-radius: var(--radius);
+    padding-right: calc(var(--padding) * 3);
+    height: 32px;
+}
+.component div{
+    display: flex;
+    gap: var(--margin);
+}
+
+.component-period {
+    background-color: var(--smoke);
+    padding: 6px  calc(var(--padding) * 2);
+    border-radius: var(--radius) 0 0 var(--radius);
+}

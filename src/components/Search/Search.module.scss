@@ -1,0 +1,33 @@
+.component {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: var(--sm);
+
+    &-small {
+        width: 100%;
+        
+        @media (max-width: 1100px) {
+            max-width: var(--full);
+        }
+    }
+}
+
+.input {
+    height: 32px;
+    background-color: var(--primary);
+    padding: 8px 8px 8px 40px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    outline: none;
+    color: var(--white);
+    flex-grow: 1;
+}
+
+.button {
+    position: absolute;
+    left: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
